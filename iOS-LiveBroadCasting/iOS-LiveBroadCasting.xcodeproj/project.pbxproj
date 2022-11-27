@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115625532933084F00790846 /* LiveStreamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115625522933084F00790846 /* LiveStreamTableViewController.swift */; };
+		1156255529332F4B00790846 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156255429332F4A00790846 /* Stream.swift */; };
+		1156255929334B2700790846 /* LiveBraodCastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156255829334B2700790846 /* LiveBraodCastTableViewCell.swift */; };
 		71387A83292DBFD400CF0DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71387A82292DBFD400CF0DA5 /* AppDelegate.swift */; };
 		71387A85292DBFD400CF0DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71387A84292DBFD400CF0DA5 /* SceneDelegate.swift */; };
-		71387A87292DBFD400CF0DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71387A86292DBFD400CF0DA5 /* ViewController.swift */; };
 		71387A8A292DBFD400CF0DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71387A88292DBFD400CF0DA5 /* Main.storyboard */; };
 		71387A8C292DC03000CF0DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71387A8B292DC03000CF0DA5 /* Assets.xcassets */; };
 		71387A8F292DC03000CF0DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71387A8D292DC03000CF0DA5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115625522933084F00790846 /* LiveStreamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStreamTableViewController.swift; sourceTree = "<group>"; };
+		1156255429332F4A00790846 /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		1156255829334B2700790846 /* LiveBraodCastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveBraodCastTableViewCell.swift; sourceTree = "<group>"; };
 		71387A7F292DBFD300CF0DA5 /* iOS-LiveBroadCasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-LiveBroadCasting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71387A82292DBFD400CF0DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71387A84292DBFD400CF0DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71387A86292DBFD400CF0DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71387A89292DBFD400CF0DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71387A8B292DC03000CF0DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71387A8E292DC03000CF0DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1156254E293306E700790846 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				115625522933084F00790846 /* LiveStreamTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1156254F293306F900790846 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1156255429332F4A00790846 /* Stream.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		71387A76292DBFD200CF0DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +76,11 @@
 		71387A81292DBFD300CF0DA5 /* iOS-LiveBroadCasting */ = {
 			isa = PBXGroup;
 			children = (
+				1156254F293306F900790846 /* Models */,
+				1156254E293306E700790846 /* Controllers */,
 				71387A82292DBFD400CF0DA5 /* AppDelegate.swift */,
 				71387A84292DBFD400CF0DA5 /* SceneDelegate.swift */,
-				71387A86292DBFD400CF0DA5 /* ViewController.swift */,
+				1156255829334B2700790846 /* LiveBraodCastTableViewCell.swift */,
 				71387A88292DBFD400CF0DA5 /* Main.storyboard */,
 				71387A8B292DC03000CF0DA5 /* Assets.xcassets */,
 				71387A8D292DC03000CF0DA5 /* LaunchScreen.storyboard */,
@@ -138,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71387A87292DBFD400CF0DA5 /* ViewController.swift in Sources */,
 				71387A83292DBFD400CF0DA5 /* AppDelegate.swift in Sources */,
+				115625532933084F00790846 /* LiveStreamTableViewController.swift in Sources */,
 				71387A85292DBFD400CF0DA5 /* SceneDelegate.swift in Sources */,
+				1156255529332F4B00790846 /* Stream.swift in Sources */,
+				1156255929334B2700790846 /* LiveBraodCastTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
